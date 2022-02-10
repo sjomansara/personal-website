@@ -8,7 +8,7 @@ const Intro = () => {
     return ( 
         <Jumbotron className="ml-5" style={{ backgroundColor: "rgb(47, 47, 47)", color: "rgb(232, 225, 239)", marginTop: "130px"}}>
         <h4>Hi there! <FontAwesomeIcon icon={faHand}/></h4>
-        <h1 className="mt-4 mb-3">I'm Sara Sjöman</h1>
+        <h1 className="mt-4 mb-3">I'm <span style={{ fontWeight: "bold" }}>Sara Sjöman</span></h1>
         <p>
             I'm a frontend developer who is located in Munich, Germany and <br></br> is passionate about clean and functional design.
         </p>
