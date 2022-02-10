@@ -8,7 +8,7 @@ const HomePage = () => {
     <div>
     <MyNavbar/>
     <Row>
-    <Col md={7}>
+    <Col md={7} sm={12}>
     <Intro />
     </Col>
     <Col md={5}>
