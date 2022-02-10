@@ -27,3 +27,7 @@ body {
   background-color: rgb(232, 225, 239) !important;
   color: rgb(47, 47, 47) !important;
 }
+
+.badge-pill:focus, .badge-pill:active {
+  box-shadow: none !important;
+}
