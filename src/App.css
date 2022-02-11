@@ -4,7 +4,7 @@ body {
 }
 
 .navLink {
-  color: rgb(232, 225, 239) !important;
+  color: rgb(212, 196, 233) !important;
 }
 
 .hvr-grow {
@@ -23,11 +23,24 @@ body {
   transform: scale(1.1);
 }
 
+.badge-pill {
+  box-shadow: 0 3px 10px rgb(37, 37, 37);
+}
+
 .badge-pill:hover {
-  background-color: rgb(232, 225, 239) !important;
+  background-color: rgb(212, 196, 233) !important;
   color: rgb(47, 47, 47) !important;
 }
 
 .badge-pill:focus, .badge-pill:active {
   box-shadow: none !important;
+}
+
+.myPhoto {
+  width: 450px;
+  height: 450px;
+  border-radius: 1%;
+  margin-top: 80px;
+  margin-left: 50px;
+  box-shadow: 0 3px 10px rgb(20, 20, 20);
 }
