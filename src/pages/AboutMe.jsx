@@ -1,6 +1,7 @@
 import MyNavbar from "../components/MyNavbar"
 import AboutInfo from "../components/AboutInfo"
 import { Col, Row } from "react-bootstrap"
+import MySkills from "../components/MySkills"
 
 const AboutMe = () => {
     return (
@@ -11,6 +12,7 @@ const AboutMe = () => {
         <AboutInfo />
         </Col>
         <Col md={6}>
+        <MySkills />
         </Col>
         </Row>
         </div>
