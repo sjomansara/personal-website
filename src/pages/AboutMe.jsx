@@ -7,10 +7,10 @@ const AboutMe = () => {
         <div>
         <MyNavbar/>
         <Row>
-        <Col md={7} sm={12}>
+        <Col md={6} sm={12}>
         <AboutInfo />
         </Col>
-        <Col md={5}>
+        <Col md={6}>
         </Col>
         </Row>
         </div>
