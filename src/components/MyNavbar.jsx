@@ -1,6 +1,9 @@
 import { Navbar, Nav } from "react-bootstrap"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCode } from '@fortawesome/free-solid-svg-icons'
+import { Link } from "react-router-dom";
+import HomePage from "../pages/HomePage";
+import AboutMe from "../pages/AboutMe";
 
 const MyNavbar = () => {
     return ( 
@@ -9,8 +12,8 @@ const MyNavbar = () => {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="ml-auto mr-3">
-            <Nav.Link href="#home" className="navLink pr-3 hvr-grow">Home</Nav.Link>
-            <Nav.Link href="#link" className="navLink pr-3 hvr-grow">About Me</Nav.Link>
+            <Link to="/"><Nav.Link href="#home" className="navLink pr-3 hvr-grow">Home</Nav.Link></Link>
+            <Link to="/aboutme"><Nav.Link href="#link" className="navLink pr-3 hvr-grow">About Me</Nav.Link></Link>
             <Nav.Link href="#link" className="navLink pr-3 hvr-grow">Portfolio</Nav.Link>
             <Nav.Link href="#link" className="navLink hvr-grow">Contact</Nav.Link>
         </Nav>

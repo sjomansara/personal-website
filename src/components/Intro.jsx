@@ -10,7 +10,7 @@ const Intro = () => {
         <h4>Hi there! <FontAwesomeIcon icon={faHand}/></h4>
         <h1 className="mt-4 mb-3">I'm <span style={{ fontWeight: "bold" }}>Sara Sjöman</span></h1>
         <p>
-            I'm a frontend developer who is located in Munich, Germany and <br></br> is passionate about clean and functional design.
+            I'm a frontend developer who is passionate about clean and functional design. <br></br> Located in Munich, Germany.
         </p>
         <p>
             <Button className="my-4 px-4 badge-pill" variant="outline-primary" style={{ color: "rgb(212, 196, 233)", borderColor: "rgb(212, 196, 233)" }}>Learn more about me</Button>
