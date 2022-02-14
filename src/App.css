@@ -8,6 +8,10 @@ body {
   color: rgb(212, 196, 233) !important;
 }
 
+a:hover {
+  text-decoration: none !important;
+}
+
 .hvr-grow {
   display: inline-block;
   vertical-align: middle;
