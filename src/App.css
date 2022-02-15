@@ -12,6 +12,10 @@ a:hover {
   text-decoration: none !important;
 }
 
+a {
+  color: rgb(212, 196, 233) !important;
+}
+
 .hvr-grow {
   display: inline-block;
   vertical-align: middle;
@@ -61,4 +65,14 @@ a:hover {
 .cardContainer {
   display: flex;
   justify-content: space-around;
+}
+
+.portfolioCard {
+  background-color: rgb(47, 47, 47) !important;
+  border: 0 !important;
+  border-radius: 50% !important;
+}
+
+.cardImg {
+  border-radius: 10px !important;
 }
