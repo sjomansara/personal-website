@@ -53,3 +53,7 @@ a:hover {
 .resumePic {
   max-width: 99% !important;
 }
+
+.modal-header {
+  border-bottom: 0 none !important;
+}

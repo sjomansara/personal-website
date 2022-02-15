@@ -14,9 +14,10 @@ const ResumeButton = () => {
               onHide={() => setResumeShow(false)}
               aria-labelledby="example-modal-sizes-title-lg"
             >
-              <Modal.Header closeButton>
-                <Modal.Title id="example-modal-sizes-title-lg">
-                </Modal.Title>
+              <Modal.Header>
+                <button onClick={() => setResumeShow(false)} type="button" className="close pt-4 pr-4" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+                </button>
               </Modal.Header>
               <Modal.Body><img className="resumePic" src="/cvpicture.png"/></Modal.Body>
             </Modal>
