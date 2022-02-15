@@ -8,10 +8,12 @@ import {
   Switch,
   Route
 } from "react-router-dom";
+import MyNavbar from './components/MyNavbar';
 
 function App() {
   return (
     <Router>
+    <MyNavbar />
       <Switch>
         <Route exact path="/" component={HomePage} />
         <Route exact path="/aboutme" component={AboutMe} />

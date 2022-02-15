@@ -1,4 +1,3 @@
-import MyNavbar from "../components/MyNavbar"
 import Intro from "../components/Intro"
 import MyPhoto from "../components/MyPhoto"
 import { Col, Row } from "react-bootstrap"
@@ -6,7 +5,6 @@ import { Col, Row } from "react-bootstrap"
 const HomePage = () => {
     return (
     <div>
-    <MyNavbar/>
     <Row>
     <Col md={7} sm={12}>
     <Intro />
