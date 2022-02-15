@@ -9,7 +9,7 @@ const Intro = () => {
         <Jumbotron className="ml-5" style={{ backgroundColor: "rgb(47, 47, 47)", color: "rgb(212, 196, 233)", marginTop: "130px"}}>
         <h4>Hi there! <FontAwesomeIcon icon={faHand}/></h4>
         <h1 className="mt-4 mb-3">I'm <span style={{ fontWeight: "bold" }}>Sara Sjöman</span></h1>
-        <p>
+        <p style={{color: "#DFDFE2"}}>
             I'm a frontend developer who is passionate about clean and functional design. <br></br> Located in Munich, Germany.
         </p>
         <p>
