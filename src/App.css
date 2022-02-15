@@ -57,3 +57,8 @@ a:hover {
 .modal-header {
   border-bottom: 0 none !important;
 }
+
+.cardContainer {
+  display: flex;
+  justify-content: space-around;
+}
