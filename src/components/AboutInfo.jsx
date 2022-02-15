@@ -3,7 +3,7 @@ import { Button } from "react-bootstrap"
 
 const AboutInfo = () => {
     return (
-        <Jumbotron className="ml-5" style={{ backgroundColor: "rgb(47, 47, 47)"}}>
+        <Jumbotron className="ml-5" style={{ backgroundColor: "rgb(47, 47, 47)", marginTop: "80px" }}>
         <h1 className='mb-5'>About Me</h1>
         <p>
             I'm a Finnish frontend developer based in Munich, Germany. I'm passionate about clean and functional design.

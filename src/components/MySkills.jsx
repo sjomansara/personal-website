@@ -4,7 +4,7 @@ import { faCss3Alt, faGitAlt, faHtml5, faJsSquare, faReact } from '@fortawesome/
 
 const MySkills = () => {
     return (
-        <Jumbotron style={{ backgroundColor: "rgb(47, 47, 47)"}}>
+        <Jumbotron className="ml-5" style={{ backgroundColor: "rgb(47, 47, 47)", marginTop: "80px" }}>
         <h1 className='mb-5'>My Skills</h1>
         <h4><FontAwesomeIcon className="mr-2" icon={faJsSquare}/> JavaScript</h4>
         <h4><FontAwesomeIcon className="mr-2" icon={faReact}/> React</h4>
