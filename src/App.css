@@ -49,3 +49,7 @@ a:hover {
   margin-left: 50px;
   box-shadow: 0 3px 10px rgb(20, 20, 20);
 }
+
+.resumePic {
+  max-width: 99% !important;
+}

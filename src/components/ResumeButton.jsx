@@ -16,7 +16,6 @@ const ResumeButton = () => {
             >
               <Modal.Header closeButton>
                 <Modal.Title id="example-modal-sizes-title-lg">
-                  My Resume
                 </Modal.Title>
               </Modal.Header>
               <Modal.Body><img className="resumePic" src="/cvpicture.png"/></Modal.Body>
