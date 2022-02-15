@@ -2,6 +2,7 @@ import { Button } from "react-bootstrap"
 import Jumbotron from 'react-bootstrap/Jumbotron';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faHand } from '@fortawesome/free-solid-svg-icons'
+import { Link } from "react-router-dom";
 // import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 
 const Intro = () => {
@@ -13,7 +14,7 @@ const Intro = () => {
             I'm a frontend developer who is passionate about clean and functional design. <br></br> Located in Munich, Germany.
         </p>
         <p>
-            <Button className="my-4 px-4 badge-pill" variant="outline-primary" style={{ color: "rgb(212, 196, 233)", borderColor: "rgb(212, 196, 233)" }}>Learn more about me</Button>
+            <Link to="/aboutme"><Button className="my-4 px-4 badge-pill" variant="outline-primary" style={{ color: "rgb(212, 196, 233)", borderColor: "rgb(212, 196, 233)" }}>Learn more about me</Button></Link>
         </p>
         {/* <p style={{ marginTop: "250px", marginLeft: "600px" }} >
             <FontAwesomeIcon icon={faLinkedin} style={{ fontSize: "30px" }}/><FontAwesomeIcon className="ml-3" icon={faGithub} style={{ fontSize: "30px" }}/><FontAwesomeIcon className="ml-3" icon={faEnvelope} style={{ fontSize: "30px" }}/>
