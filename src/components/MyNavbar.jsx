@@ -12,7 +12,7 @@ const MyNavbar = () => {
         <Nav className="ml-auto mr-3">
             <Link to="/"><Nav.Link href="#home" className="navLink pr-3 hvr-grow">Home</Nav.Link></Link>
             <Link to="/aboutme"><Nav.Link href="#link" className="navLink pr-3 hvr-grow">About Me</Nav.Link></Link>
-            <Nav.Link href="#link" className="navLink pr-3 hvr-grow">Portfolio</Nav.Link>
+            <Link to="/portfolio"><Nav.Link href="#link" className="navLink pr-3 hvr-grow">Portfolio</Nav.Link></Link>
             <Nav.Link href="#link" className="navLink hvr-grow">Contact</Nav.Link>
         </Nav>
         </Navbar.Collapse>

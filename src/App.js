@@ -1,6 +1,7 @@
 import './App.css';
 import HomePage from './pages/HomePage';
 import AboutMe from './pages/AboutMe';
+import PortfolioPage from './pages/PortfolioPage';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import React from "react";
 import {
@@ -17,6 +18,7 @@ function App() {
       <Switch>
         <Route exact path="/" component={HomePage} />
         <Route exact path="/aboutme" component={AboutMe} />
+        <Route exact path="/portfolio" component={PortfolioPage} />
       </Switch>
     </Router>
   );
