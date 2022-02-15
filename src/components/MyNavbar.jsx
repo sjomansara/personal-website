@@ -2,8 +2,6 @@ import { Navbar, Nav } from "react-bootstrap"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCode } from '@fortawesome/free-solid-svg-icons'
 import { Link } from "react-router-dom";
-import HomePage from "../pages/HomePage";
-import AboutMe from "../pages/AboutMe";
 
 const MyNavbar = () => {
     return ( 
