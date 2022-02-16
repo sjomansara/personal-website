@@ -1,8 +1,8 @@
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import HomePage from './pages/HomePage';
 import AboutMe from './pages/AboutMe';
 import PortfolioPage from './pages/PortfolioPage';
-import 'bootstrap/dist/css/bootstrap.min.css';
 import React from "react";
 import {
   BrowserRouter as Router,

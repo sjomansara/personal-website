@@ -4,16 +4,9 @@ body {
   color: rgb(212, 196, 233) !important;
 }
 
-.navLink {
-  color: rgb(212, 196, 233) !important;
-}
-
-a:hover {
-  text-decoration: none !important;
-}
-
 a {
   color: rgb(212, 196, 233) !important;
+  text-decoration: none !important;
 }
 
 .hvr-grow {
@@ -32,16 +25,16 @@ a {
   transform: scale(1.1);
 }
 
-.badge-pill {
+.rounded-pill {
   box-shadow: 0 3px 10px rgb(37, 37, 37);
 }
 
-.badge-pill:hover {
+.rounded-pill:hover {
   background-color: rgb(212, 196, 233) !important;
   color: rgb(47, 47, 47) !important;
 }
 
-.badge-pill:focus, .badge-pill:active {
+.rounded-pill:focus, .badge-pill:active {
   box-shadow: none !important;
 }
 
@@ -106,4 +99,8 @@ a {
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   text-align: center;
+}
+
+.carousel-indicators {
+  bottom: -50px !important; 
 }
