@@ -8,7 +8,7 @@ import { Link } from "react-router-dom";
 const Intro = () => {
     return ( 
         <Container>
-        <Jumbotron className="ms-5" style={{ backgroundColor: "rgb(47, 47, 47)", color: "rgb(212, 196, 233)", marginTop: "130px"}}>
+        <Jumbotron className="ms-5" style={{ backgroundColor: "rgb(47, 47, 47)", color: "rgb(212, 196, 233)", marginTop: "10rem"}}>
         <h4>Hi there! <FontAwesomeIcon icon={faHand}/></h4>
         <h1 className="mt-4 mb-3">I'm <span style={{ fontWeight: "bold" }}>Sara Sjöman</span></h1>
         <p style={{color: "#DFDFE2"}}>
