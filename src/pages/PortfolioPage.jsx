@@ -20,7 +20,7 @@ const PortfolioPage = () => {
         <div className="cardContainer">
         <Row className="mx-5">
             <Col md={3}>
-                <Card onClick={() => setModalShow(true)} className="portfolioCard hvr-grow" style={{ width: '18rem' }}>
+                <Card onClick={() => setModalShow(true)} className="portfolioCard mb-3 hvr-grow" style={{ width: '18rem' }}>
                     <div className="imgContainer">
                     <Card.Img className="cardImg" variant="top" src="/stats1.png" />
                     <div class="overlay">
@@ -30,7 +30,7 @@ const PortfolioPage = () => {
                 </Card>
             </Col>
             <Col md={3}>
-                <Card className="portfolioCard hvr-grow" style={{ width: '18rem' }}>
+                <Card className="portfolioCard mb-3 hvr-grow" style={{ width: '18rem' }}>
                     <div className="imgContainer">
                     <Card.Img className="cardImg" variant="top" src="/stats1.png" />
                     <div class="overlay">
@@ -40,7 +40,7 @@ const PortfolioPage = () => {
                 </Card>
             </Col>
             <Col md={3}>
-                <Card className="portfolioCard hvr-grow" style={{ width: '18rem' }}>
+                <Card className="portfolioCard mb-3 hvr-grow" style={{ width: '18rem' }}>
                     <div className="imgContainer">
                     <Card.Img className="cardImg" variant="top" src="/stats1.png" />
                     <div class="overlay">
@@ -50,7 +50,7 @@ const PortfolioPage = () => {
                 </Card>
             </Col>
             <Col md={3}>
-                <Card className="portfolioCard hvr-grow" style={{ width: '18rem' }}>
+                <Card className="portfolioCard mb-3 hvr-grow" style={{ width: '18rem' }}>
                     <div className="imgContainer">
                     <Card.Img className="cardImg" variant="top" src="/stats1.png" />
                     <div class="overlay">

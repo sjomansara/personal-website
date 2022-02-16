@@ -6,7 +6,7 @@ import { Container } from 'react-bootstrap';
 const MySkills = () => {
     return (
         <Container>
-        <Jumbotron className="ms-5" style={{ backgroundColor: "rgb(47, 47, 47)", marginTop: "80px" }}>
+        <Jumbotron className="ms-5 mb-5" style={{ backgroundColor: "rgb(47, 47, 47)", marginTop: "80px" }}>
         <h1 className='mb-5'>My Skills</h1>
         <h4 className="hvr-grow"><FontAwesomeIcon className="mr-2" icon={faJsSquare}/><span style={{color: "#DFDFE2"}}> &nbsp;JavaScript</span></h4> <br></br>
         <h4 className="hvr-grow"><FontAwesomeIcon className="mr-2" icon={faReact}/><span style={{color: "#DFDFE2"}}> React</span></h4> <br></br>
