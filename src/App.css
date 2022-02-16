@@ -68,12 +68,12 @@ a {
 
 .cardImg {
   display: block;
-  border-radius: 10px !important;
+  border-radius: 5px !important;
 }
 
 .overlay {
   position: absolute;
-  border-radius: 10px;
+  border-radius: 5px;
   top: 0;
   bottom: 0;
   left: 0;
@@ -102,5 +102,19 @@ a {
 }
 
 .carousel-indicators {
-  bottom: -50px !important; 
+  bottom: -250px !important; 
+}
+
+.githubLink {
+  background-color: white !important;
+  color: #7D7D8C !important;
+  box-shadow: none !important;
+  border-color: #7D7D8C !important;
+  border-width: 2px !important;
+  font-weight: bold !important;
+}
+
+.githubLink:hover {
+  background-color: #7D7D8C !important;
+  color:white !important;
 }
