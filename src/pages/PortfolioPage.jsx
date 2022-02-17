@@ -17,7 +17,7 @@ const PortfolioPage = () => {
         <div>
         <Container>
         <Jumbotron className="ms-4 mt-5" style={{ backgroundColor: "rgb(47, 47, 47)" }}>
-        <h1 className='ms-3 mb-5' style={{ marginTop: "9rem" }}>My Portfolio</h1>
+        <h1 className='ms-3 mb-5' style={{ marginTop: "9rem" }}>My portfolio</h1>
         <p className='ms-3 mb-5' style={{color: "#DFDFE2"}}>Here you can take a look at some of my projects and course work.</p>
         </Jumbotron>
         </Container>
