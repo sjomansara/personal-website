@@ -1,19 +1,19 @@
 import AboutInfo from "../components/AboutInfo"
-import { Col, Row } from "react-bootstrap"
+import { Col, Container, Row } from "react-bootstrap"
 import MySkills from "../components/MySkills"
 
 const AboutMe = () => {
     return (
-        <div>
+        <Container>
         <Row>
-        <Col md={6} sm={12}>
+        <Col md={8}>
         <AboutInfo />
         </Col>
-        <Col md={6}>
+        <Col md={4}>
         <MySkills />
         </Col>
         </Row>
-        </div>
+        </Container>
     )
 }
 

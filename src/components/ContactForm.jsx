@@ -28,7 +28,7 @@ const ContactForm = () => {
             <Form.Control as="textarea" placeholder="Type here" rows={3} />
         </Form.Group>
         </Form>
-        <div className='sendButton'><Button className="my-4 px-4 rounded-pill" variant="outline-primary" style={{ color: "rgb(212, 196, 233)", borderColor: "rgb(212, 196, 233)" }}>Send Message</Button></div>
+        <div className='sendButton'><Button className="my-4 px-4 rounded-pill" variant="outline-primary" style={{ color: "rgb(212, 196, 233)", borderColor: "rgb(212, 196, 233)" }}>Send message</Button></div>
         </Container>
     )
 }
