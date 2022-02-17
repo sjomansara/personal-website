@@ -137,3 +137,9 @@ a {
   display: flex;
   justify-content: center;
 }
+
+.downloadButton {
+  width: 50rem;
+  display: flex;
+  justify-content: center;
+}
