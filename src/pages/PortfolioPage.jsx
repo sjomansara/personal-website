@@ -9,7 +9,7 @@ import { faGithub } from '@fortawesome/free-brands-svg-icons';
 
 const PortfolioPage = () => {
     const [modalShow, setModalShow] = useState(false);
-    const [weatherShow, setWeatherShow] = useState(false);
+    const [linkedinShow, setLinkedinShow] = useState(false);
 
     return (
         <div>
@@ -32,7 +32,7 @@ const PortfolioPage = () => {
                 </Card>
             </Col>
             <Col md={3}>
-                <Card onClick={() => setWeatherShow(true)} className="portfolioCard mb-3 hvr-grow" style={{ width: '18rem' }}>
+                <Card onClick={() => setLinkedinShow(true)} className="portfolioCard mb-3 hvr-grow" style={{ width: '18rem' }}>
                     <div className="imgContainer">
                     <Card.Img className="cardImg" variant="top" src="/linkedin1.png" />
                     <div class="overlay">
@@ -140,8 +140,8 @@ const PortfolioPage = () => {
 
             <Modal
               size="lg"
-              show={weatherShow}
-              onHide={() => setWeatherShow(false)}
+              show={linkedinShow}
+              onHide={() => setLinkedinShow(false)}
               aria-labelledby="example-modal-sizes-title-lg"
               className="weatherModal"
             >
