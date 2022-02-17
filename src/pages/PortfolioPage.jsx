@@ -10,6 +10,7 @@ import { faGithub } from '@fortawesome/free-brands-svg-icons';
 const PortfolioPage = () => {
     const [modalShow, setModalShow] = useState(false);
     const [linkedinShow, setLinkedinShow] = useState(false);
+    const [weatherShow, setWeatherShow] = useState(false);
 
     return (
         <div>
@@ -42,9 +43,9 @@ const PortfolioPage = () => {
                 </Card>
             </Col>
             <Col md={3}>
-                <Card className="portfolioCard mb-3 hvr-grow" style={{ width: '18rem' }}>
+                <Card onClick={() => setWeatherShow(true)} className="portfolioCard mb-3 hvr-grow" style={{ width: '18rem' }}>
                     <div className="imgContainer">
-                    <Card.Img className="cardImg" variant="top" src="/stats1.png" />
+                    <Card.Img className="cardImg" variant="top" src="/weather1.png" />
                     <div class="overlay">
                         <div class="text">Weather App</div>
                     </div>
@@ -187,6 +188,37 @@ const PortfolioPage = () => {
                 </Carousel>
                 <p className="mt-4" style={{ color: "#7D7D8C" }}>A collaborative effort between team members from a bootcamp course, this app is designed to be a clone of LinkedIn that replicates much of the design and functionality of popular Linkedin services. I contributed to a large portion of the design and project management aspects, and contributed to functional parts as well, such as API fetching within React components.</p>
                 <Button href="https://github.com/emmanuelky/Team-Build-2" target="_blank" rel="noopener noreferrer" className="githubLink rounded-pill"><FontAwesomeIcon className="me-1" icon={faGithub}/> Open on GitHub</Button>
+              </Modal.Body>
+            </Modal>
+
+            <Modal
+              size="lg"
+              show={weatherShow}
+              onHide={() => setWeatherShow(false)}
+              aria-labelledby="example-modal-sizes-title-lg"
+            >
+            <Modal.Header closeButton><h3 style={{ color: "#7D7D8C" }}>Weather App</h3></Modal.Header>
+              <Modal.Body>
+                <Carousel>
+                <Carousel.Item>
+                    <img
+                    className="mb-5"
+                    className="d-block w-100"
+                    src="/weather1.png"
+                    alt="First slide"
+                    />
+                </Carousel.Item>
+                <Carousel.Item>
+                    <img
+                    className="d-block w-100"
+                    src="/weather2.png"
+                    alt="Second slide"
+                    />
+                </Carousel.Item>
+                </Carousel>
+                <p className="mt-4" style={{ color: "#7D7D8C" }}>A weather app built using React. This solo project can show weather reports including hourly temperature, humidity and wind speed using the OpenWeather API. As of now can be used only for certain locations, but is planned to be expanded for use for any location.</p>
+                <br></br>
+                <Button href="https://github.com/sjomansara/strive-capstoneproject-spotifystats" target="_blank" rel="noopener noreferrer" className="githubLink rounded-pill"><FontAwesomeIcon className="me-1" icon={faGithub}/> Open on GitHub</Button>
               </Modal.Body>
             </Modal>
 
