@@ -7,7 +7,7 @@ const ResumeButton = () => {
       
         return (
           <>
-            <Button onClick={() => setResumeShow(true)} className="my-4 px-4 rounded-pill" variant="outline-primary" style={{ color: "rgb(212, 196, 233)", borderColor: "rgb(212, 196, 233)" }}>My Resume</Button>
+            <Button onClick={() => setResumeShow(true)} className="my-4 px-4 rounded-pill" variant="outline-primary" style={{ color: "rgb(212, 196, 233)", borderColor: "rgb(212, 196, 233)" }}>My resume</Button>
             <Modal
               size="lg"
               show={resumeShow}

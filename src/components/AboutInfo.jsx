@@ -7,7 +7,7 @@ const AboutInfo = () => {
     return (
         <Container>
         <Jumbotron className="ms-5" style={{ backgroundColor: "rgb(47, 47, 47)", marginTop: "10rem" }}>
-        <h1 className='mb-5'>About Me</h1>
+        <h1 className='mb-5'>About me</h1>
         <p style={{color: "#DFDFE2"}}>
             I'm Sara, a Finnish frontend developer based in Munich, Germany. I'm passionate about clean and functional design and have a great eye for detail.
         </p>
