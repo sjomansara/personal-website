@@ -11,6 +11,7 @@ const PortfolioPage = () => {
     const [modalShow, setModalShow] = useState(false);
     const [linkedinShow, setLinkedinShow] = useState(false);
     const [weatherShow, setWeatherShow] = useState(false);
+    const [spotifyShow, setSpotifyShow] = useState(false);
 
     return (
         <div>
@@ -53,9 +54,9 @@ const PortfolioPage = () => {
                 </Card>
             </Col>
             <Col md={3}>
-                <Card className="portfolioCard mb-3 hvr-grow" style={{ width: '18rem' }}>
+                <Card onClick={() => setSpotifyShow(true)} className="portfolioCard mb-3 hvr-grow" style={{ width: '18rem' }}>
                     <div className="imgContainer">
-                    <Card.Img className="cardImg" variant="top" src="/stats1.png" />
+                    <Card.Img className="cardImg" variant="top" src="/spotify1.png" />
                     <div class="overlay">
                         <div class="text">Spotify Clone</div>
                     </div>
@@ -219,6 +220,31 @@ const PortfolioPage = () => {
                 <p className="mt-4" style={{ color: "#7D7D8C" }}>A weather app built using React. This solo project can show weather reports including hourly temperature, humidity and wind speed using the OpenWeather API. As of now can be used only for certain locations, but is planned to be expanded for use for any location.</p>
                 <br></br>
                 <Button href="https://github.com/sjomansara/strive-capstoneproject-spotifystats" target="_blank" rel="noopener noreferrer" className="githubLink rounded-pill"><FontAwesomeIcon className="me-1" icon={faGithub}/> Open on GitHub</Button>
+              </Modal.Body>
+            </Modal>
+
+
+            <Modal
+              size="lg"
+              show={spotifyShow}
+              onHide={() => setSpotifyShow(false)}
+              aria-labelledby="example-modal-sizes-title-lg"
+            >
+            <Modal.Header closeButton><h3 style={{ color: "#7D7D8C" }}>Spotify Clone</h3></Modal.Header>
+              <Modal.Body>
+                <Carousel>
+                <Carousel.Item>
+                    <img
+                    className="mb-5"
+                    className="d-block w-100"
+                    src="/spotify1.png"
+                    alt="First slide"
+                    />
+                </Carousel.Item>
+                </Carousel>
+                <p className="mt-4" style={{ color: "#7D7D8C" }}>A benchmark project from a bootcamp course. This app is designed to be a clone of Spotify that replicates much of the design and functionality of Spotify. Build with React. I'm currently working on adding an artist and an album page and some functionality.</p>
+                <br></br>
+                <Button href="https://github.com/sjomansara/strive-m4d10-spotify" target="_blank" rel="noopener noreferrer" className="githubLink rounded-pill"><FontAwesomeIcon className="me-1" icon={faGithub}/> Open on GitHub</Button>
               </Modal.Body>
             </Modal>
 
