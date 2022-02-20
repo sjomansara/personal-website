@@ -21,7 +21,7 @@ const ContactForm = () => {
         </Row>
         <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
             <Form.Label>Subject</Form.Label>
-            <Form.Control type="text" placeholder="Enter subject" />
+            <Form.Control type="text" placeholder="Subject" />
         </Form.Group>
         <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
             <Form.Label>Message</Form.Label>
