@@ -15,8 +15,8 @@ const ResumeButton = () => {
               aria-labelledby="example-modal-sizes-title-lg"
             >
               <Modal.Header closeButton></Modal.Header>
+              <div className="downloadButton"><Button className="ms-5 githubLink rounded-pill" href="resume_sarasjoman.pdf" download="resume_sarasjoman.pdf">Download PDF</Button></div>
               <Modal.Body><img className="resumePic" src="/cvpicture.png"/></Modal.Body>
-              <div className="downloadButton"><Button className="my-4 mx-4 githubLink rounded-pill" href="resume_sarasjoman.pdf" download="resume_sarasjoman.pdf">Download PDF</Button></div>
             </Modal>
           </>
         );

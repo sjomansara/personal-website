@@ -141,5 +141,5 @@ a {
 .downloadButton {
   width: 50rem;
   display: flex;
-  justify-content: center;
+  justify-content: left;
 }
